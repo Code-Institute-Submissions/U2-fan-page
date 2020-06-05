@@ -1,0 +1,1 @@
+$(".album-text").before("<img src='assets/images/U2_Boy.png' class='album-images' alt='U2 boys album'>");
