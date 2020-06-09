@@ -1,32 +1,91 @@
- var map;
+ var map
  
  function initMap() {
-             map =new google.maps.Map(document.getElementById("map"), {
-                zoom: 8,
-                center: {
-                    lat: 46.619261,
-                    lng: -33.134766
-                }
-            });
-            let markers = stadiums.features;
-
-            for(var x=0; x < markers.length;  x++) {
-            let stadiumNames = markers[x].stadiums.coordinates[0];
-            let latitude = markers[x].stadiums.coordinates[1];
-            let lonitude = markers[x].stadiums.coordinates[2];
-
-            dropMarker (latitude, lonitude, stadiumNames);
+      map = new google.maps.Map(document.getElementById("map"), {
+         zoom: 3,
+         center: {
+             lat: 40.7505,
+             lng: -73.9934
          }
-        }
-         function dropMarker(lat, lng, stadiumNames){
-             var locations = {lat: lat, lng: lng};
-             var contentString = "<h3>" + stadiumNames + "</h3>";
-             var infowindow = new google.maps.infoWindow({
+     });
+
+     var labels = 
+          "MSC";
+
+     var locations = [
+         { lat: 40.7505, lng: -73.9934  },
+         { lat: 41.8623, lng: -87.6167 },
+         { lat: 34.0141, lng: -118.2879 }
+     ];
+     var contentString = "<h3>" + "tour venue" + "</h3>";
+             var infowindow = new google.maps.InfoWindow({
                  content: contentString
              });
-             var marker = new google.maps.Marker({position: locations, map: map, title: stadiumNames});
-             marker.addEventListener('click', funciton() {
-                 infowindow.open(map, marker);
+
+
+
+     var markers = locations.map(function(location, i) {
+         return new google.maps.Marker({
+             position: location,
+             label: labels[i % labels.length]
+         });
+         markers.addListener('click', function() {
+              infowindow.open(map, markers);
              });
-         }
+     });
+
+
+     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function initMap() {
+//         var map = new google.maps.Map(document.getElementById('map'), {
+//           center: {lat: 40.7505, lng: -73.9934},
+//           zoom: 3
+//         });
+//           var labels = 
+//           ("Maddison Square Garden","Soldier Filed","Coluseum");
+
+//           var locations = 
+//                 [{ lat: 40.7505, lng: -73.9934 },
+//                 { lat: 41.8623, lng: -87.6167},
+//                 { lat: 34.0141, lng: -118.2879}];
+                
         
+//             var markers = locations.map(function(location, i) {
+//                 return new google.maps.Marker({
+//                     position: location,
+//                     label: labels[i % labels.length]
+//                 });
+//             });
+//         }
