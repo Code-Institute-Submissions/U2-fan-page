@@ -101,5 +101,36 @@ div#map {
     min-height: 360px;
     width: 50%;
     margin: auto;
+    
 }
 
+.map-style {
+    color: black;
+    text-align: center;
+}
+
+ #america-panel {
+        color: black;
+        padding: 5px;
+        text-align: center;
+        font-family: Piedra,'sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+#eu-panel {
+        color: black;
+        padding: 5px;
+        text-align: center;
+        font-family: Piedra,'sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+#rest-world-panel {
+        color: black;
+        padding: 5px;
+        text-align: center;
+        font-family: Piedra,'sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+      
