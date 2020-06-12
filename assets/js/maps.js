@@ -205,3 +205,12 @@ document.getElementById('RW-drop').onclick = function(){
 }
 
 
+/*------------------------------------below content-----------*/
+
+ document.getElementById('US-drop').onclick = function() {
+        let stadiumName;
+        for ( i=0; i<usStadiums.length; i++) {
+            stadiumName = "location " + usStadiums[i].name;
+        }
+        document.getElementById("lists").write = stadiumName;
+    }
