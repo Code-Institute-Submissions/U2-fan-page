@@ -1,3 +1,8 @@
+ var centerOfUS = {lat: 39.0997, lng: -94.5786};
+ var centerOfEU = {lat: 53.3607, lng: -6.2512};
+ var centerOfRW = {lat: -13.7590, lng: -172.1046}
+ 
+ 
  var usStadiums = [
     {
       name: "Madison Square Gardens", city: "New York", date: '1st of June 2021', lat: 40.7505, lng: -73.9934
