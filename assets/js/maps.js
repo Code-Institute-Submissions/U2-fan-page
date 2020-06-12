@@ -68,7 +68,7 @@ function initMap() {
 function ShowPointsTable(locations) {
 const tableRows = [];
      locations.forEach(eachLocation => {
-          tableRows.push("<tr><td>" + eachLocation.name + "</td></tr>");
+          tableRows.push("<tr><td>" + eachLocation.name + " City: " + eachLocation.city + " Date: " + eachLocation.date + "</td></tr>");
      });
      document.getElementById('table').innerHTML = "<table>" + tableRows + "</table>";
 };

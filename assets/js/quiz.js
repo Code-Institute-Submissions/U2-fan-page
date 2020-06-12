@@ -1,34 +1,55 @@
 var myQuestions = [
 	{
-        question: "What is the Edge's real name?/n(a) Marcus/n(b) Sam/n(c) David/n Nathan",
-        answer: "c"
+		question: "What is the Edge's real name?",
+		answers: {
+			a: 'Marcus',
+			b: 'Sam',
+            c: 'David',
+            d: 'Nathan'
+		},
+		correctAnswer: 'c'
     },
     {
-		question: "How many US tours have U2 gone on?/n(a) 21/n(b) 13/n(c) 18/n(d) 26",
-		answer: "d"
+		question: "How many US tours have U2 gone on?",
+		answers: {
+			a: '21',
+			b: '13',
+            c: '18',
+            d: '26'
+		},
+		correctAnswer: 'd'
     },
 	{
-		question: "How many studioalbums have U2 made?/n(a) 14/n(b)/n 4/n(c) 10/n(d) 17",
-		answer: "a"
+		question: "How many studioalbums have U2 made?",
+		answers: {
+			a: '14',
+			b: '4',
+            c: '10',
+            d: '17'
+		},
+		correctAnswer: 'a'
     },
     {
-		question: "What year did  U2 win their first grammy?/n(a) 1994/n(b) 1987/n(c) 1984/n(d) 2001",
-		answer: "b"
+		question: "What year did  U2 win their first grammy?",
+		answers: {
+			a: '1993',
+			b: '1987',
+            c: '1984',
+            d: '2001'
+		},
+		correctAnswer: 'b'
     },
     {
-		question: "Which U2 member started the band?/n(a) Bono/n(b) Adam Clayton/n(c) Larry Mullen Jr/n(d) the Edge",
-		answer: "c"
+		question: "Which U2 member started the band?",
+		answers: {
+			a: 'Bono',
+			b: 'Adam Clayton',
+            c: 'Larry Mullen Jr',
+            d: 'the Edge'
+		},
+		correctAnswer: 'c'
     }
 ];
 
 var score = 0;
 
-for (i=0; i= myQuestions.length; i++) {
-    var response = window.question(myQuestions[i].question)
-    if (response == question[1].answer) {
-        score ++;
-        alert("correct");
-    } else {
-        alert("wrong!");
-    }
-}

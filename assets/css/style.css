@@ -2,6 +2,7 @@ body {
     margin: 0;
     color: #fafafa;
     font-family: Bellota, sans-serif;
+    font-size: 15px;
 }
 
 .hero-image {
@@ -15,14 +16,15 @@ body {
 
 /*--------------------navbar---*/
 .navbar ul {
-    text-align: center;
+    text-align: left;
     margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar li {
     display: inline-block;
     font-size: 22px;
-    padding: 0 10%;
+    padding: 0 10px;
 }
 
 .navbar a {
@@ -64,7 +66,7 @@ body {
 
 .achievements {
     font-family: Bellota, sans-serif;
-    margin: auto 10%;
+    margin: auto 20%;
 }
 
 /*--------------------padding and margins------*/
@@ -76,6 +78,9 @@ body {
 .image-margin {
     margin-left: 20%;
     margin-right: 5px;
+}
+.section-margin {
+    margin-bottom: 50px;
 }
 
 /*---------------albums----*/
@@ -126,6 +131,16 @@ div#map {
         padding-left: 10px;
         margin: 5px 40px;
       }
+
+
+  /*--------------------------------------table-------*/
+
+  #table {
+      margin: 20px 20%;
+      font-family: Bellota, sans-serif;
+      font-size: 15px;
+
+  }    
 
  /*--------------------------------------media queries----*/
 @media screen and (max-width: 500px) {
