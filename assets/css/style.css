@@ -83,7 +83,15 @@ body {
     margin-bottom: 50px;
 }
 
-/*---------------albums----*/
+/*--------------------band member---*/
+
+.band-images {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/*-----------------albums----*/
 
 .album-text {
      font-family: Piedra, sans-serif;
