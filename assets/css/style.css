@@ -82,6 +82,9 @@ body {
 .section-margin {
     margin-bottom: 50px;
 }
+.album-margin {
+    margin: 20px 10%;
+}
 
 /*--------------------band member---*/
 
@@ -98,8 +101,8 @@ body {
      text-align: center;
 }
 .album-images {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
      display: block;
   margin-left: auto;
