@@ -171,8 +171,18 @@ div#map {
     font-size: 50px;
 }
 
+.icon:hover {
+    color: red;
+}
+
 .footer-style {
      background-color: rgba(0, 0, 0, 0.8);
+     min-height: 150px;
+}
+
+.info-ref {
+    font-size: 15px;
+    text-align: right;
 }
 
 
