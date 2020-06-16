@@ -63,10 +63,8 @@ body {
     height: 150px;
 }
 
-
 .achievements {
-    font-family: Bellota, sans-serif;
-    margin: auto 20%;
+    margin-bottom: 10px;
 }
 
 /*--------------------padding and margins------*/
@@ -79,8 +77,12 @@ body {
     margin-left: 20%;
     margin-right: 5px;
 }
+.right-image {
+    margin-right: 25%;
+    margin-left: 5px;
+}
 .section-margin {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .album-margin {
     margin: 20px 10%;
@@ -150,8 +152,29 @@ div#map {
       margin: 20px 20%;
       font-family: Bellota, sans-serif;
       font-size: 15px;
-
   }    
+
+
+/*---------------------------------------footer----------*/
+
+.social-links li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 5%;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 50px;
+}
+
+.footer-style {
+     background-color: rgba(0, 0, 0, 0.8);
+}
+
 
  /*--------------------------------------media queries----*/
 @media screen and (max-width: 500px) {
