@@ -68,9 +68,10 @@ function initMap() {
 function ShowPointsTable(locations) {
 const tableRows = [];
      locations.forEach(eachLocation => {
-          tableRows.push("<tr><td>" + eachLocation.name + " City: " + eachLocation.city + " Date: " + eachLocation.date + "</td></tr>");
+          tableRows.push("<div>" + eachLocation.name +  "<em> City: </em>" + 
+          eachLocation.city  + "   " + "<em> Date: </em>" + eachLocation.date  + "    " + eachLocation.link + "</div>");
      });
-     document.getElementById('table').innerHTML = "<table>" + tableRows + "</table>";
+     document.getElementById('table').innerHTML = "<h1>Tour Info</h1>" + "<div class='table-style'>" + tableRows + "</div>";
 };
 
 

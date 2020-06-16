@@ -88,6 +88,10 @@ body {
     margin: 20px 10%;
 }
 
+.map-margins {
+    margin-bottom: 150px;
+}
+
 /*--------------------band member---*/
 
 .band-images {
@@ -151,8 +155,21 @@ div#map {
   #table {
       margin: 20px 20%;
       font-family: Bellota, sans-serif;
-      font-size: 15px;
+      font-size: 25px; 
   }    
+  
+  .table-style {
+      display: block;
+  }
+
+  .table-headers {
+      font-family: Pedria, sans-serif;
+  }
+
+  .tour-links {
+      text-decoration: none;
+      color: white;
+  }
 
 
 /*---------------------------------------footer----------*/
