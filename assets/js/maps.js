@@ -68,18 +68,21 @@ function initMap() {
 function ShowPointsTable(locations) {
 const tableRows = [];
      locations.forEach(eachLocation => {
-            tableRows.push("<span>" + eachLocation.name + "</span>" + "<span>" + " <em> City:  </em>  " +  eachLocation.city + 
+            tableRows.push("<span class='mobile-view'>" + eachLocation.name + "</span>" + "<span>" + " <em> City:  </em>  " +  eachLocation.city + 
              "</span>" + "<span>" + " <em> Date:  </em>  " + eachLocation.date  + "</span>");
      });
-     document.getElementById('table').innerHTML = "<h1 class='table-headers'>Tour Info</h1>" + "<div class='table-style'>" + tableRows + "</div>" + "<a href='#' class='tour-links'>Click for ticket master link for tour!</a>" ;
+     document.getElementById('table').innerHTML = "<h1 class='table-headers'>Tour Info</h1>" + "<div class='table-style'>" + tableRows + "</div>" + "<button onclick='NewTab()' class='tour-links' >Click for ticket master link for tour!</button>" ;
 };
 
+function NewTab() { 
+            window.open( 
+              "https://www.ticketmaster.ie/u2-tickets/artist/736365", "_blank"); 
+        } 
 
 
 
 
-
-
+// https://www.ticketmaster.ie/u2-tickets/artist/736365
 
 
 

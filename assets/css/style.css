@@ -160,28 +160,30 @@ div#map {
   
   .table-style  {
       display: grid;
-      grid-template-columns: repeat(4, 4fr);
+      grid-template-columns: repeat(4, 3fr);
       text-align: center;
-      border-collapse: collapse;
-  }
+}
 
   .table-style span{
       padding: 10px 5px;
-  }
-
-  .table-headers {
-      font-family: Pedria, sans-serif;
+      vertical-align: bottom;
+      min-height:50px;
       text-align: center;
   }
 
-  .tour-links {
-      font-family: Pedria, sans-serif;   
-      color: white;  
+  .table-headers {
+      text-align: center;
   }
 
-  .tour-links:hover {
-      font-family: Pedria, sans-serif;   
-      color: white;  
+  .tour-links {  
+      color: black;  
+      margin: 50px 25%;
+      background-color: #fafafa;
+      border-radius: 10px;
+  }
+
+  .tour-links:hover {  
+      text-decoration: underline; 
   }
   
 
@@ -289,17 +291,13 @@ div#map {
         margin: 5% 5%;
     }
 }
-/* #submit{
-	font-family: sans-serif;
-	font-size: 20px;
-	background-color: #297;
-	color: #fff;
-	border: 0px;
-	border-radius: 3px;
-	padding: 20px;
-	cursor: pointer;
-	margin-bottom: 20px;
+@media screen and (max-width: 525px) {
+    .mobile-view {
+        display: hidden;
+    }
 }
-#submit:hover{
-	background-color: #3a8;
-} */
+@media screen and (max-width: 625px) {
+    .table-style {
+        font-size: 15px;
+    }
+}
