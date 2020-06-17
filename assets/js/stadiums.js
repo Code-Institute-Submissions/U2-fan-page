@@ -5,34 +5,34 @@
  
  var usStadiums = [
     {
-      name: "Madison Square Gardens", city: "New York", date: '1st of June 2021', lat: 40.7505, lng: -73.9934, link: "<a href='https://www.msg.com/madison-square-garden' class='tour-links'>further info</a>"
+      name: "Madison Square Gardens", city: "New York", date: '1st of June 2021', lat: 40.7505, lng: -73.9934, 
     },
     {
-      name: "Scotiabank Arena", city: "Toronto", date: '8th of June 2021', lat: 43.6435, lng: -79.3791, link: 'https://www.scotiabankarena.com/'
+      name: "Scotiabank Arena", city: "Toronto", date: '8th of June 2021', lat: 43.6435, lng: -79.3791,
     },
     {
-      name: "Boston Garden", city: "Boston", date: '12th of June 2021', lat: 42.3662, lng: -71.0621, link: 'https://www.tdgarden.com/'
+      name: "Boston Garden", city: "Boston", date: '12th of June 2021', lat: 42.3662, lng: -71.0621,
     },
     {
-      name: "Wells Fargo Arena", city: "Philadelphia", date: '28nd of June 2021', lat: 39.9012, lng: -75.1720, link: 'https://www.wellsfargocenterphilly.com/'
+      name: "Wells Fargo Arena", city: "Philadelphia", date: '28nd of June 2021', lat: 39.9012, lng: -75.1720,
     },
     {
-      name: "Bridgestone Arena", city: "Nashville", date: '22nd of June 2021', lat: 36.1592, lng: -86.7785, link: 'https://www.bridgestonearena.com/'
+      name: "Bridgestone Arena", city: "Nashville", date: '22nd of June 2021', lat: 36.1592, lng: -86.7785,
     },
     {
-      name: "United Center", city: "Chicago", date: '28th of June 2021', lat: 41.8807, lng: -87.6742, link: 'https://www.unitedcenter.com/'
+      name: "United Center", city: "Chicago", date: '28th of June 2021', lat: 41.8807, lng: -87.6742, 
     },
     {
-      name: "Key Arena", city: "Seattle", date: '30th of June 2021', lat: 47.6221, lng: -122.3540, link: 'http://newarenaatseattlecenter.com/'
+      name: "Key Arena", city: "Seattle", date: '30th of June 2021', lat: 47.6221, lng: -122.3540, 
     },
     {
-      name: "Pepsi Center", city: "Denver", date: '3rd of July 2021', lat: 39.7487, lng: -105.0077, link: 'https://www.pepsicenter.com/'
+      name: "Pepsi Center", city: "Denver", date: '3rd of July 2021', lat: 39.7487, lng: -105.0077,
     },
     {
-      name: "SAP center", city: "San Jose", date: '10th of July 2021', lat: 37.3328, lng: -121.9012, link: 'http://www.sapcenter.com/'
+      name: "SAP center", city: "San Jose", date: '10th of July 2021', lat: 37.3328, lng: -121.9012, 
     },
     {
-      name: "The Collusem", city: "Los Angeles", date: '30th of July 2021', lat: 34.0141, lng: -118.2879, link: 'https://www.lacoliseum.com/'
+      name: "The Collusem", city: "Los Angeles", date: '30th of July 2021', lat: 34.0141, lng: -118.2879, 
     }
   ];
 var euStadiums = [

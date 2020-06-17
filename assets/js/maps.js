@@ -14,7 +14,7 @@ function plotPointsOnMap(locations, centerPoints) {
             title: eachLocation.name,
         });
     
-    var contentString = "<h3>" + eachLocation.name + "</h3>" + "<br>" +"<p>" + eachLocation.city + " on the " + eachLocation.date + "</p>";
+    var contentString = "<h3>" + eachLocation.name + "</h3>" + "<br>" +"<p>" + "<b>" +eachLocation.city + "</b>" + " on the " + eachLocation.date + "</p>";
     var infowindow = new google.maps.InfoWindow({
         content: contentString,
         disableAutoPan: true
@@ -31,13 +31,13 @@ function plotPointsOnMap(locations, centerPoints) {
     });
   });
 }
-function ShowPointsTable(locations) {
-const tableRows = [];
-     locations.forEach(function(eachlocation) {
-          tableRows.push("<tr><td>" + eachlocation.name + "</td></tr>");
-     });
-     document.getElementById('table').innerHTML = "<table>" + tableRows + "</table>";
-};
+// function ShowPointsTable(locations) {
+// const tableRows = [];
+//      locations.forEach(function(eachlocation) {
+//           tableRows.push("<tr><td>" + eachlocation.name + "</td></tr>");
+//      });
+//      document.getElementById('table').innerHTML = "<table>" + tableRows + "</table>";
+// };
 
 
  
@@ -68,10 +68,10 @@ function initMap() {
 function ShowPointsTable(locations) {
 const tableRows = [];
      locations.forEach(eachLocation => {
-          tableRows.push("<div>" + eachLocation.name +  "<em> City: </em>" + 
-          eachLocation.city  + "   " + "<em> Date: </em>" + eachLocation.date  + "    " + eachLocation.link + "</div>");
+            tableRows.push("<span>" + eachLocation.name + "</span>" + "<span>" + " <em> City:  </em>  " +  eachLocation.city + 
+             "</span>" + "<span>" + " <em> Date:  </em>  " + eachLocation.date  + "</span>");
      });
-     document.getElementById('table').innerHTML = "<h1>Tour Info</h1>" + "<div class='table-style'>" + tableRows + "</div>";
+     document.getElementById('table').innerHTML = "<h1 class='table-headers'>Tour Info</h1>" + "<div class='table-style'>" + tableRows + "</div>" + "<a href='#' class='tour-links'>Click for ticket master link for tour!</a>" ;
 };
 
 
