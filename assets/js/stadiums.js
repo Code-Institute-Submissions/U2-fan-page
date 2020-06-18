@@ -76,7 +76,7 @@ var rwStadiums = [
       name: "Maracanã Stadium", city: "Sao Paulo", date: '12th of November 2021', lat: -22.9121, lng: -43.2302
     },
     {
-      name: "Estadio Monumental Antonio Vespucio Liberti", city: "Buenos Aires", date: '18th of November 2021', lat: -34.5453, lng: -58.4498
+      name: "Buenos Aires stadium", city: "Buenos Aires", date: '18th of November 2021', lat: -34.5453, lng: -58.4498
     },
     {
       name: "Opus Stadium", city: "Perth", date: '24th of November 2021', lat: -31.9512, lng: 115.8890
@@ -95,5 +95,15 @@ var rwStadiums = [
     },
     {
       name: "Gocheok Sky Dome", city: "Seoul", date: '21st of December 2021', lat: 37.4982, lng: 126.8672
+    },
+    {
+      name: "D.Y. Patil Sports Stadium", city: "Mumbai", date: '21st of December 2021', lat: 19.0421, lng: 73.0267
+    },
+    {
+      name: "Cape Town Stadium", city: "Cape Town", date: '12st of January 2022', lat: -33.9048, lng: 18.4098
+    },
+    {
+      name: "FNB Stadium", city: "Johannesburg", date: '21st of January 2022', lat: -26.2348, lng: 27.9827
     }
+
   ];

@@ -84,7 +84,7 @@ body {
 }
 
 .map-margins {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .column-content {
@@ -122,8 +122,8 @@ body {
 
 /*-----------------map----*/
 div#map {
-    min-height: 360px;
-    width: 50%;
+    min-height: 380px;
+    width: 70%;
     margin: auto;
     border-radius: 10px;
     
@@ -223,6 +223,9 @@ div#map {
     text-align: right;
 }
 
+.map-footer {
+    margin-top: 100px;
+}
 
  /*--------------------------------------media queries----*/
 @media screen and (max-width: 500px) {
@@ -262,7 +265,7 @@ div#map {
 
 @media screen and (max-width: 550px) {
     .button-panel {
-        margin: 5px 20px;
+        margin: 5px 5px;
     }
 }
 
