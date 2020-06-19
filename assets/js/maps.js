@@ -31,15 +31,6 @@ function plotPointsOnMap(locations, centerPoints) {
     });
   });
 }
-// function ShowPointsTable(locations) {
-// const tableRows = [];
-//      locations.forEach(function(eachlocation) {
-//           tableRows.push("<tr><td>" + eachlocation.name + "</td></tr>");
-//      });
-//      document.getElementById('table').innerHTML = "<table>" + tableRows + "</table>";
-// };
-
-
  
 function initMap() {
      map = new google.maps.Map(document.getElementById('map'), {
@@ -68,8 +59,17 @@ function initMap() {
 function ShowPointsTable(locations) {
 const tableRows = [];
      locations.forEach(eachLocation => {
-            tableRows.push("<span class='mobile-view'>" + eachLocation.name + "</span>" + "<span>" + " <em> City:  </em>  " +  eachLocation.city + 
-             "</span>" + "<span>" + " <em> Date:  </em>  " + eachLocation.date  + "</span>");
+             tableRows.push(`
+              <span>
+                  ${eachLocation.name}
+               </span>
+              <span>
+                ${eachLocation.city}
+             </span>
+            <span>
+              ${eachLocation.date}
+            </span>
+        `);
      });
      document.getElementById('table').innerHTML = "<h1 class='table-headers'>Tour Info</h1>" + "<div class='table-style'>" + tableRows + "</div>" + "<button onclick='NewTab()' class='tour-links' >Click for ticket master link for tour!</button>" ;
 };

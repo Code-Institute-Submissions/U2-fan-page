@@ -8,7 +8,7 @@ body {
 .hero-image {
     position: relative;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/U2/U2_16_9_1578385237.jpg?itok=zqBgR15h");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/U2/U2_16_9_1578385237.jpg?itok=zqBgR15h");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -43,23 +43,46 @@ body {
     margin: 20px, auto;
 }
 
+.page-header {
+    font-family: Piedra, sans-serif;
+    text-align: center;
+    margin: 20px, auto;
+    font-size: 100px;
+    border-bottom: none;
+}
+
+.main-content a {
+    color: #fafafa;
+    text-decoration: none;
+    font-family: Piedra, sans-serif;
+}
+
+.main-content a:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
 
 /*-----------------Main content------*/
 
 .main-content {
     margin-left: 30%;
     margin-right: 30%;
+    text-decoration: none;
 }
 
-
+.started-content {
+    padding-right: 200px;
+    text-align: center;
+}
 
 .content-image {
-    width: 100px;
-    height: 150px;
+    width: 300px;
+    height: 400px;
 }
 
 .achievements {
     margin-bottom: 10px;
+    margin-left: 20%;
 }
 
 /*--------------------padding and margins------*/
@@ -69,8 +92,8 @@ body {
     margin-bottom: 40px;
 }
 .image-margin {
-    margin-left: 20%;
-    margin-right: 5px;
+    padding-left: 10%;
+    
 }
 .right-image {
     margin-right: 25%;
@@ -88,9 +111,12 @@ body {
 }
 
 .column-content {
-    margin-left:20%;
-    margin-right: 20%;
-    text-align: center;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.achievements-margins {
+    margin-bottom: 200px;
 }
 
 /*--------------------band member---*/
@@ -99,6 +125,14 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+.member-images {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*-----------------albums----*/
@@ -199,6 +233,7 @@ div#map {
     display: inline-block;
     text-align: center;
     margin: 10px 5%;
+    vertical-align: center;
 }
 
 .icon{
@@ -216,6 +251,7 @@ div#map {
 .footer-style {
      background-color: rgba(0, 0, 0, 0.8);
      min-height: 150px;
+
 }
 
 .info-ref {
@@ -295,13 +331,27 @@ div#map {
 }
 
 @media screen and (max-width: 550px) {
-    .column-content {
+    .started-content {
         margin: 5% 5%;
+        padding-right: 0px;
+    }
+    .column-content {
+         margin: 5% 5%;
+         padding-right: 0px;
+    }
+    .achievements {
+        margin-left: 0%;
+    }
+    .image-margin {
+        margin: 5px 15px;
+    }
+    .right-image {
+        margin: 5px 20px;
     }
 }
 @media screen and (max-width: 525px) {
     .mobile-view {
-        display: hidden;
+        display: none;
     }
 }
 @media screen and (max-width: 625px) {
