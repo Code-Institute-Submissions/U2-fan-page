@@ -60,14 +60,14 @@ function ShowPointsTable(locations) {
 const tableRows = [];
      locations.forEach(eachLocation => {
              tableRows.push(`
-              <span>
-                  ${eachLocation.name}
-               </span>
-              <span>
-                ${eachLocation.city}
-             </span>
             <span>
-              ${eachLocation.date}
+               ${eachLocation.name}
+            </span>
+            <span>
+               ${eachLocation.city}
+            </span>
+            <span>
+               ${eachLocation.date}
             </span>
         `);
      });

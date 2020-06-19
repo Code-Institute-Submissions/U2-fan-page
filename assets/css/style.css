@@ -142,8 +142,8 @@ body {
      text-align: center;
 }
 .album-images {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
      display: block;
   margin-left: auto;
@@ -154,9 +154,22 @@ body {
     text-align: center;
 }
 
+.album-intro  {
+    text-align: center;
+}
+
+.album-intro span {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.spotify-link i:hover {
+    color: green;
+}
+
 /*-----------------map----*/
 div#map {
-    min-height: 380px;
+    min-height: 500px;
     width: 70%;
     margin: auto;
     border-radius: 10px;
@@ -229,11 +242,33 @@ div#map {
 
 /*---------------------------------------footer----------*/
 
+.footer-style {
+     background-color: rgba(0, 0, 0, 0.8);
+     min-height: 150px;
+     display: grid;
+     grid-template-columns: repeat(2, 3fr);
+     text-align: center;
+}
+
+.footer-style span {
+    padding: 30px 0px;
+}
+
+.info-ref {
+    font-size: 15px;
+    text-align: right;
+}
+
+.map-footer {
+    margin-top: 100px;
+}
+
+
 .social-links li {
     display: inline-block;
     text-align: center;
-    margin: 10px 5%;
-    vertical-align: center;
+    padding: 50px 15px;
+    
 }
 
 .icon{
@@ -246,21 +281,6 @@ div#map {
 
 .icon:hover {
     color: red;
-}
-
-.footer-style {
-     background-color: rgba(0, 0, 0, 0.8);
-     min-height: 150px;
-
-}
-
-.info-ref {
-    font-size: 15px;
-    text-align: right;
-}
-
-.map-footer {
-    margin-top: 100px;
 }
 
  /*--------------------------------------media queries----*/
@@ -325,12 +345,6 @@ div#map {
 }
 
 @media screen and (max-width: 550px) {
-    .album-image {
-        margin: 10px 10%;
-    }
-}
-
-@media screen and (max-width: 550px) {
     .started-content {
         margin: 5% 5%;
         padding-right: 0px;
@@ -347,6 +361,12 @@ div#map {
     }
     .right-image {
         margin: 5px 20px;
+    }
+    .album-image {
+        margin: 10px 10%;
+    }
+    .footer-style {
+        display: block;
     }
 }
 @media screen and (max-width: 525px) {
