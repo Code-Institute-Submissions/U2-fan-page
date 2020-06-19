@@ -39,6 +39,7 @@ function initMap() {
   });
    // Plot US locations
      plotPointsOnMap(usStadiums, centerOfUS);
+     ShowPointsTable(usStadiums);
    document.getElementById('US-drop').onclick = function(){
         plotPointsOnMap(usStadiums, centerOfUS);
         ShowPointsTable(usStadiums);
@@ -58,6 +59,18 @@ function initMap() {
 
 function ShowPointsTable(locations) {
 const tableRows = [];
+const tableHeaders = [];
+             tableHeaders.push(`
+            <span>
+               Stadium
+            </span> 
+            <span>
+               City
+            </span> 
+            <span>
+               Date
+            </span> 
+     `);
      locations.forEach(eachLocation => {
              tableRows.push(`
             <span>
@@ -71,7 +84,7 @@ const tableRows = [];
             </span>
         `);
      });
-     document.getElementById('table').innerHTML = "<h1 class='table-headers'>Tour Info</h1>" + "<div class='table-style'>" + tableRows + "</div>" + "<button onclick='NewTab()' class='tour-links' >Click for ticket master link for tour!</button>" ;
+     document.getElementById('table').innerHTML = "<h1 class='table-headers'>Tour Info</h1>" + "<div class='table-style'>" + tableHeaders + "</div>" + "<div class='table-style'>" + tableRows + "</div>" + "<button onclick='NewTab()' class='tour-links' >Click for ticket master link for tour!</button>" ;
 };
 
 function NewTab() { 
