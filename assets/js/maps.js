@@ -68,20 +68,8 @@ function initMap() {
 }
 
 function ShowPointsTable(locations) {
-//   const tableRows = [];
   var tableRows = "";
   var tableHeaders = "";
-//   tableHeaders.push(`
-//             <span>
-//                Stadium
-//             </span> 
-//             <span>
-//                City
-//             </span> 
-//             <span>
-//                Date
-//             </span> 
-//      `);
        tableHeaders = tableHeaders +(`
             <span>
                Stadium
@@ -94,17 +82,6 @@ function ShowPointsTable(locations) {
             </span> 
      `);
   locations.forEach((eachLocation) => {
-    // tableRows.push(`
-    //         <span>
-    //            ${eachLocation.name}
-    //         </span>
-    //         <span>
-    //            ${eachLocation.city}
-    //         </span>
-    //         <span>
-    //            ${eachLocation.date}
-    //         </span>
-    //     `);
     tableRows += (`
             <span>
                ${eachLocation.name}
