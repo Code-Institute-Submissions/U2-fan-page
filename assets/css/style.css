@@ -155,7 +155,8 @@ body {
 }
 
 .album-paragraph {
-    text-align: center;
+    text-align: left;
+    vertical-align: bottom;
 }
 
 .album-intro  {
