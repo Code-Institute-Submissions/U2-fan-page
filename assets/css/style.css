@@ -3,6 +3,7 @@ body {
     color: #fafafa;
     font-family: Bellota, sans-serif;
     font-size: 20px;
+    overflow-x: hidden;
 }
 
 .hero-image {
@@ -223,7 +224,7 @@ div#map {
   
   .table-style  {
       display: grid;
-      grid-template-columns: repeat(4, 3fr);
+      grid-template-columns: repeat(3, 3fr);
       text-align: center;
 }
 
@@ -291,7 +292,7 @@ div#map {
 }
 
 .icon:hover {
-    color: red;
+    color: rgb(197, 65, 57);
 }
 
  /*--------------------------------------media queries----*/
@@ -299,47 +300,39 @@ div#map {
     .hero-image {
         height: 75vh;
     }
+    .navbar li {
+        padding: 0 2%;
+    }
 }
 
 @media screen and (min-width: 1000px) {
     .hero-image {
         background-position-y: 30%;
     }
-}
-
-
-@media screen and (max-width: 500px) {
-    .navbar li {
-        padding: 0 2%;
+    div#map {
+        min-height: 360px;
+        width: 65%;
+        margin: auto;
+        border-radius: 10px;  
     }
 }
-@media screen and (max-width: 1000px) {
-     div#map {
-    min-height: 360px;
-    width: 65%;
-    margin: auto;
-    border-radius: 10px;  
-}
-}
+
 @media screen and (max-width: 750px) {
      div#map {
-    min-height: 360px;
-    width: 80%;
-    margin: auto;
-    border-radius: 10px;  
-}
-}
-
-@media screen and (max-width: 550px) {
-    .button-panel {
-        margin: 5px 5px;
+        min-height: 360px;
+        width: 80%;
+        margin: auto;
+        border-radius: 10px;  
     }
 }
+
 
 @media screen and (max-width: 425px) {
     .button-panel {
-        margin-left:1px;
-       
+        margin-left:1px;    
+    }
+    .main-content {
+        margin: auto 5%;
     }
 }
 
@@ -349,11 +342,6 @@ div#map {
     }
 }
 
-@media screen and (max-width: 425px) {
-    .main-content {
-        margin: auto 5%;
-    }
-}
 
 @media screen and (max-width: 550px) {
     .started-content {
@@ -378,6 +366,9 @@ div#map {
     }
     .footer-style {
         display: block;
+    }
+    .button-panel {
+        margin: 5px 5px;
     }
 }
 @media screen and (max-width: 525px) {
