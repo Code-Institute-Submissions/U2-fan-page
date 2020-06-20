@@ -1,392 +1,420 @@
 body {
-    margin: 0;
-    color: #fafafa;
-    font-family: Bellota, sans-serif;
-    font-size: 20px;
-    overflow-x: hidden;
+	margin: 0;
+	color: #fafafa;
+	font-family: Bellota, sans-serif;
+	font-size: 20px;
+	overflow-x: hidden;
 }
 
 .hero-image {
-    position: relative;
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/U2/U2_16_9_1578385237.jpg?itok=zqBgR15h");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+	position: relative;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/U2/U2_16_9_1578385237.jpg?itok=zqBgR15h");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
+
 /*--------------------navbar---*/
+
 .navbar ul {
-    text-align: left;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+	text-align: left;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar li {
-    display: inline-block;
-    font-size: 22px;
-    padding: 0 10px;
+	display: inline-block;
+	font-size: 22px;
+	padding: 0 10px;
 }
 
 .navbar a {
-    color: #fafafa;
-    font-family: Piedra, sans-serif;
+	color: #fafafa;
+	font-family: Piedra, sans-serif;
 }
 
 .navbar a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
+
 /*-----------------header------*/
-.header-style { 
-    font-family: Piedra, sans-serif;
-    text-align: center;
-    margin: 20px, auto;
+
+.header-style {
+	font-family: Piedra, sans-serif;
+	text-align: center;
+	margin: 20px, auto;
 }
 
 .page-header {
-    font-family: Piedra, sans-serif;
-    text-align: center;
-    margin: 20px, auto;
-    font-size: 100px;
-    border-bottom: none;
+	font-family: Piedra, sans-serif;
+	text-align: center;
+	margin: 20px, auto;
+	font-size: 100px;
+	border-bottom: none;
 }
 
 .main-content a {
-    color: #fafafa;
-    text-decoration: none;
-    font-family: Piedra, sans-serif;
+	color: #fafafa;
+	text-decoration: none;
+	font-family: Piedra, sans-serif;
 }
 
 .main-content a:hover {
-    color: #fafafa;
-    text-decoration: none;
+	color: #fafafa;
+	text-decoration: none;
 }
+
 
 /*-----------------Main content------*/
 
 .main-content {
-    margin-left: 30%;
-    margin-right: 30%;
-    text-decoration: none;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-decoration: none;
 }
 
 .started-content {
-    padding-right: 200px;
-    text-align: center;
+	text-align: center;
+    margin: 0px 20%;
 }
 
 .content-image {
-    width: 300px;
-    height: 400px;
+	width: 300px;
+	height: 400px;
+    margin-left: 40%;
 }
 
 .achievements {
-    margin-bottom: 10px;
-    margin-left: 20%;
+	margin-bottom: 10px;
+	margin-left: 20%;
 }
+
 
 /*--------------------padding and margins------*/
 
 .intro-margins {
-    margin-top: 20px;
-    margin-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
+
 .image-margin {
-    padding-left: 10%;
-    
+	margin-left: 10%;
 }
+
 .right-image {
-    margin-right: 25%;
-    margin-left: 5px;
+	margin-right: 25%;
+	margin-left: 5px;
 }
+
 .section-margin {
-    margin-bottom: 200px;
+	margin-bottom: 100px;
 }
+
 .album-margin {
-    margin: 20px 10%;
-    margin-bottom: 100px;
+	margin: 20px 10%;
+	margin-bottom: 100px;
 }
 
 .map-margins {
-    margin-bottom: 80px;
+	margin-bottom: 80px;
 }
 
 .column-content {
-    padding-right: 100px;
-    text-align: left;
+	padding-right: 100px;
+	text-align: left;
 }
 
 .achievements-margins {
-    margin-bottom: 200px;
-    margin-top: 100px;
+	margin-bottom: 200px;
+	margin-top: 100px;
 }
+
 
 /*--------------------band member---*/
 
 .band-images {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    float: left;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float: left;
 }
+
 .member-images {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 
 /*-----------------albums----*/
 
 .album-text {
-     font-family: Piedra, sans-serif;
-     text-align: center;
+	font-family: Piedra, sans-serif;
+	text-align: center;
 }
+
 .album-images {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-     display: block;
-  margin-left: auto;
-  margin-right: auto;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .album-paragraph {
-    text-align: left;
-    vertical-align: bottom;
+	text-align: left;
+	vertical-align: bottom;
 }
 
-.album-intro  {
-    text-align: center;
+.album-intro {
+	text-align: center;
 }
 
 .album-intro span {
-    display: inline-block;
-    text-decoration: none;
+	display: inline-block;
+	text-decoration: none;
 }
 
 .spotify-link i:hover {
-    color: green;
+	color: green;
 }
 
+
 /*-----------------map----*/
+
 div#map {
-    min-height: 500px;
-    width: 70%;
-    margin: auto;
-    border-radius: 10px;
-    
+	min-height: 500px;
+	width: 70%;
+	margin: auto;
+	border-radius: 10px;
 }
 
 .map-style {
-    color: black;
-    text-align: center;
-    font-family: Bellota, sans-serif;
+	color: black;
+	text-align: center;
+	font-family: Bellota, sans-serif;
 }
+
+
 /*-----------------map buttons------------*/
 
 .button-list {
-    text-align: center;
+	text-align: center;
 }
 
 .button-list li {
-    display: inline-block;
-    text-align: center;
+	display: inline-block;
+	text-align: center;
 }
 
- .button-panel {
-        color: black;
-        padding: 5px;
-        text-align: center;
-        font-family: Piedra,'sans-serif';
-        line-height: 30px;
-        padding-left: 10px;
-        margin: 20px 40px;
-      }
-
-  #US-drop:focus {
-      background-color:rgb(197, 65, 57);
-  }
-
-  #EU-drop:focus {
-      background-color: rgb(197, 65, 57);;
-  }
-
-  #RW-drop:focus {
-      background-color: rgb(197, 65, 57);;
-  }
-
-  /*--------------------------------------table-------*/
-
-  #table {
-      margin: 20px 10%; 
-      font-size: 25px; 
-  }    
-  
-  .table-style  {
-      display: grid;
-      grid-template-columns: repeat(3, 3fr);
-      text-align: center;
+.button-panel {
+	color: black;
+	padding: 5px;
+	text-align: center;
+	font-family: Piedra, 'sans-serif';
+	line-height: 30px;
+	padding-left: 10px;
+	margin: 20px 40px;
 }
 
-  .table-style span{
-      padding: 10px 5px;
-      vertical-align: bottom;
-      min-height:50px;
-      text-align: center;
-  }
+#US-drop:focus {
+	background-color: rgb(197, 65, 57);
+}
 
-  .table-headers {
-      text-align: center;
-  }
+#EU-drop:focus {
+	background-color: rgb(197, 65, 57);
+	;
+}
 
-  .tour-links {  
-      color: black;  
-      margin: 50px 25%;
-      background-color: #fafafa;
-      border-radius: 10px;
-  }
+#RW-drop:focus {
+	background-color: rgb(197, 65, 57);
+	;
+}
 
-  .tour-links:hover {  
-      text-decoration: underline; 
-  }
-  
+
+/*--------------------------------------table-------*/
+
+#table {
+	margin: 20px 10%;
+	font-size: 25px;
+}
+
+.table-style {
+	display: grid;
+	grid-template-columns: repeat(3, 3fr);
+	text-align: center;
+}
+
+.table-style span {
+	padding: 10px 5px;
+	vertical-align: bottom;
+	min-height: 50px;
+	text-align: center;
+}
+
+.table-headers {
+	text-align: center;
+}
+
+.tour-links {
+	color: black;
+	margin: 50px 25%;
+	background-color: #fafafa;
+	border-radius: 10px;
+}
+
+.tour-links:hover {
+	text-decoration: underline;
+}
 
 
 /*---------------------------------------footer----------*/
 
 .footer-style {
-     background-color: rgba(0, 0, 0, 0.8);
-     min-height: 150px;
-     display: grid;
-     grid-template-columns: repeat(2, 3fr);
-     text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	min-height: 150px;
+	display: grid;
+	grid-template-columns: repeat(2, 3fr);
+	text-align: center;
 }
 
 .footer-style span {
-    padding: 30px 0px;
+	padding: 30px 0px;
 }
 
 .info-ref {
-    font-size: 15px;
-    text-align: right;
+	font-size: 15px;
+	text-align: right;
 }
 
 .map-footer {
-    margin-top: 100px;
+	margin-top: 100px;
 }
-
 
 .social-links li {
-    display: inline-block;
-    text-align: center;
-    padding: 50px 15px;
-    
+	display: inline-block;
+	text-align: center;
+	padding: 50px 15px;
 }
 
-.icon{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    color: white;
-    font-size: 50px;
+.icon {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	color: white;
+	font-size: 50px;
 }
 
 .icon:hover {
-    color: rgb(197, 65, 57);
+	color: rgb(197, 65, 57);
 }
 
- /*--------------------------------------media queries----*/
+
+/*--------------------------------------media queries----*/
+
 @media screen and (max-width: 500px) {
-    .hero-image {
-        height: 75vh;
-    }
-    .navbar li {
-        padding: 0 2%;
-    }
+	.hero-image {
+		height: 75vh;
+	}
+	.navbar li {
+		padding: 0 2%;
+	}
 }
 
 @media screen and (min-width: 1000px) {
-    .hero-image {
-        background-position-y: 30%;
-    }
-    div#map {
-        min-height: 360px;
-        width: 65%;
-        margin: auto;
-        border-radius: 10px;  
+	.hero-image {
+		background-position-y: 30%;
+	}
+	div#map {
+		min-height: 360px;
+		width: 65%;
+		margin: auto;
+		border-radius: 10px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+    .content-image {
+        margin: auto 5%;
     }
 }
 
 @media screen and (max-width: 750px) {
-     div#map {
-        min-height: 360px;
-        width: 80%;
-        margin: auto;
-        border-radius: 10px;  
-    }
+	div#map {
+		min-height: 360px;
+		width: 80%;
+		margin: auto;
+		border-radius: 10px;
+	}
 }
 
-
 @media screen and (max-width: 425px) {
-    .button-panel {
-        margin-left:1px;
-        padding-left: 0;
-    }
-    .main-content {
-        margin: auto 5%;
-    }
-    .row {
-        margin-right: 0px;
-        margin-left: 0px;
-    }
+	.button-panel {
+		margin-left: 1px;
+		padding-left: 0;
+	}
+	.main-content {
+		margin: auto 5%;
+	}
+	.row {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
 }
 
 @media screen and (max-width: 1200px) {
-    .main-content {
-        margin: auto 10%;
-    }
+	.main-content {
+		margin: auto 10%;
+	}
 }
-
 
 @media screen and (max-width: 550px) {
-    .started-content {
-        margin: 5% 5%;
-        padding-right: 0px;
-    }
-    .column-content {
-         margin: 5% 5%;
-         padding-right: 0px;
-    }
-    .achievements {
-        margin-left: 0%;
-    }
-    .image-margin {
-        margin: 5px 15px;
-    }
-    .right-image {
-        margin: 5px 20px;
-    }
-    .album-image {
-        margin: 10px 10%;
-    }
-    .footer-style {
-        display: block;
-    }
-    .button-panel {
-        margin: 5px 5px;
-    }
+	.started-content {
+		margin: 5% 5%;
+		padding-right: 0px;
+	}
+	.column-content {
+		margin: 5% 5%;
+		padding-right: 0px;
+	}
+	.achievements {
+		margin-left: 0%;
+	}
+	.image-margin {
+		margin: 5px 15px;
+	}
+	.right-image {
+		margin: 5px 20px;
+	}
+	.album-image {
+		margin: 10px 10%;
+	}
+	.footer-style {
+		display: block;
+	}
+	.button-panel {
+		margin: 5px 5px;
+	}
 }
+
 @media screen and (max-width: 525px) {
-    .mobile-view {
-        display: none;
-    }
-}
-@media screen and (max-width: 625px) {
-    .table-style {
+	.mobile-view {
+		display: none;
+	}
+    .tour-links {
         font-size: 15px;
     }
+}
+
+@media screen and (max-width: 625px) {
+	.table-style {
+		font-size: 15px;
+	}
 }

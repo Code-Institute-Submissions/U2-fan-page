@@ -49,73 +49,73 @@
   ];
 var euStadiums = [
     {
-      name: "Croke Park", city: "Dublin", date: '20th of August 2021', lat: 53.3607, lng: -6.2512
+      name: "Croke Park", city: "Dublin", date: "20th of August 2021", lat: 53.3607, lng: -6.2512
     },
      {
-      name: "Thomond Park", city: "Dublin", date: '21st of August 2021', lat: 52.6742, lng: -8.6425
+      name: "Thomond Park", city: "Dublin", date: "21st of August 2021", lat: 52.6742, lng: -8.6425
     },
     {
-      name: "Twickenham Stadium", city: "London", date: '25th of August 2021', lat: 51.4546, lng: -0.3410
+      name: "Twickenham Stadium", city: "London", date: "25th of August 2021", lat: 51.4546, lng: -0.3410
     },
     {
-      name: "City of Manchester Stadium", city: "Manchester", date: '27th of August 2021', lat: 53.4831, lng: -2.2004
+      name: "City of Manchester Stadium", city: "Manchester", date: "27th of August 2021", lat: 53.4831, lng: -2.2004
     },
     {
-      name: "Millennium stadium", city: "Cardiff", date: '28th of August 2021', lat: 51.4782, lng: -3.1826
+      name: "Millennium stadium", city: "Cardiff", date: "28th of August 2021", lat: 51.4782, lng: -3.1826
     },
     {
-      name: "Olympiastadion Berlin", city: "Berlin", date: '3rd of September 2021', lat: 52.5147, lng: 13.2395
+      name: "Olympiastadion Berlin", city: "Berlin", date: "3rd of September 2021", lat: 52.5147, lng: 13.2395
     },
     {
-      name: "Stade De France", city: "Paris", date: '10th of September 2021', lat: 48.9245, lng:  2.3602
+      name: "Stade De France", city: "Paris", date: "10th of September 2021", lat: 48.9245, lng:  2.3602
     },
     {
-      name: "Johan Cruijff ArenA", city: "Amsterdam", date: '15th of September 2021', lat: 52.3144, lng:  4.9420
+      name: "Johan Cruijff ArenA", city: "Amsterdam", date: "15th of September 2021", lat: 52.3144, lng:  4.9420
     },
     {
-      name: "Santiago Bernabéu Stadium", city: "Madrid", date: '18th of September 2021', lat: 40.4531, lng:  -3.6883
+      name: "Santiago Bernabéu Stadium", city: "Madrid", date: "18th of September 2021", lat: 40.4531, lng:  -3.6883
     },
     {
-      name: "Stadio Olimpico", city: "Rome", date: '24th of September 2021', lat: 41.9341, lng: 12.4547
+      name: "Stadio Olimpico", city: "Rome", date: "24th of September 2021", lat: 41.9341, lng: 12.4547
     }
   ];
 
 var rwStadiums = [
     {
-      name: "Estadio Aztecas", city: "Mexico City", date: '5th of November 2021', lat: 19.3029, lng: -99.1505
+      name: "Estadio Aztecas", city: "Mexico City", date: "5th of November 2021", lat: 19.3029, lng: -99.1505
     },
     {
-      name: "Maracanã Stadium", city: "Sao Paulo", date: '12th of November 2021', lat: -22.9121, lng: -43.2302
+      name: "Maracanã Stadium", city: "Sao Paulo", date: "12th of November 2021", lat: -22.9121, lng: -43.2302
     },
     {
-      name: "Buenos Aires stadium", city: "Buenos Aires", date: '17th of November 2021', lat: -34.5453, lng: -58.4498
+      name: "Buenos Aires stadium", city: "Buenos Aires", date: "17th of November 2021", lat: -34.5453, lng: -58.4498
     },
     {
-      name: "Opus Stadium", city: "Perth", date: '20th of November 2021', lat: -31.9512, lng: 115.8890
+      name: "Opus Stadium", city: "Perth", date: "20th of November 2021", lat: -31.9512, lng: 115.8890
     },
     {
-      name: "SunCorp Stadium", city: "Brisbane", date: '24th of November 2021', lat: -27.4648, lng: 153.0095
+      name: "SunCorp Stadium", city: "Brisbane", date: "24th of November 2021", lat: -27.4648, lng: 153.0095
     },
     {
-      name: "ANZ Stadium", city: "Sydney", date: '27th of November 2021', lat: -33.8471, lng: 151.0634
+      name: "ANZ Stadium", city: "Sydney", date: "27th of November 2021", lat: -33.8471, lng: 151.0634
     },
     {
-      name: "Eden Park", city: "Auckland", date: '4th of December 2021', lat: -36.8750, lng: 174.7448
+      name: "Eden Park", city: "Auckland", date: "4th of December 2021", lat: -36.8750, lng: 174.7448
     },
     {
-      name: "Saitama Super Arena", city: "Tokyo", date: '17th of December 2021', lat: 35.8951, lng: 139.6307
+      name: "Saitama Super Arena", city: "Tokyo", date: "17th of December 2021", lat: 35.8951, lng: 139.6307
     },
     {
-      name: "Gocheok Sky Dome", city: "Seoul", date: '22nd of December 2021', lat: 37.4982, lng: 126.8672
+      name: "Gocheok Sky Dome", city: "Seoul", date: "22nd of December 2021", lat: 37.4982, lng: 126.8672
     },
     {
-      name: "D.Y. Patil Sports Stadium", city: "Mumbai", date: '8th of January 2022', lat: 19.0421, lng: 73.0267
+      name: "D.Y. Patil Sports Stadium", city: "Mumbai", date: "8th of January 2022", lat: 19.0421, lng: 73.0267
     },
     {
-      name: "Cape Town Stadium", city: "Cape Town", date: '15th of January 2022', lat: -33.9048, lng: 18.4098
+      name: "Cape Town Stadium", city: "Cape Town", date: "15th of January 2022", lat: -33.9048, lng: 18.4098
     },
     {
-      name: "FNB Stadium", city: "Johannesburg", date: '22nd of January 2022', lat: -26.2348, lng: 27.9827
+      name: "FNB Stadium", city: "Johannesburg", date: "22nd of January 2022", lat: -26.2348, lng: 27.9827
     }
 
   ];
