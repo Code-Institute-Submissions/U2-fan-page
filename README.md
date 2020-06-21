@@ -5,17 +5,18 @@ wants to learn more about the band members, how they got started, tour informati
 of the website is to provide information and access to that informaiton to all fans. It is worth noting that the tour info provided is fictional 
 as due to the pandemic all tours are cancelled. Content can be changed to relfect real tour dates and locations in the future. 
 
-a user would expect to be able to find good informaiton on the bands vwork aswell as access to those work 
+a user would expect to be able to find good informaiton on the bands work aswell as access to those work 
 
 ## a)
 ![album-page](assets/images/album-page.png)
 
-Through spotify link on page 
+Through the spotify links on th page users access the music 
 
 ## b)
 ![spotify war link](assets/images/spotify.png)
 
 A user will be able to access google maps which will provide them the ability to visally see where the concerts will be taking place. They can interacte with the world map to access the information provided
+
 ![map.png](assets/images/map.png)
 
 ## Strategy
@@ -39,7 +40,7 @@ Also a link to ticketmaster appears below the table to give the user the option 
 
 ## Structure
 The page has a header, slightly transperant, with a navbar tight to the left. Aswell as  on the landing page their is a link to tour page in the introduction paragrapgh. All pages have a footer 
-aswell with a quote form one of the band members and links to their social media pages.
+aswell with a quote from one of the band members and links to their social media pages.
 
 
 ## Skeleton 
@@ -74,9 +75,9 @@ city and date. Aswell as this on the album page
 ## Technologies
 1) html
 2) CSS 
-3)Javascript
+3) Javascript
 4) bootstrap 4.4.1
-5)google api 
+5) google api 
 
 
 ## Testing
@@ -95,8 +96,7 @@ Commit the project on gitpod with regular git pushes to github, the host website
 ## Credits/Media
 *All content on U2 image wise and 90% of info came from various wikipedia pages on the band, its memebers and albums. The link to the main U" page is linked [here](https://en.wikipedia.org/wiki/U2). 
 We have not provided all the links to wikipedia pages for the 14 albums or 4 band members but all images came directly form those pages. 
-*The olny exception to this was the hero image which came from the Grammy's website which is linked [here]
-(https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/U2/U2_16_9_1578385237.jpg?itok=zqBgR15h)
+*The olny exception to this was the hero image which came from the Grammy's website which is linked [here](https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/U2/U2_16_9_1578385237.jpg?itok=zqBgR15h)
 
 
 ## Acknowledgements 
@@ -105,3 +105,4 @@ We have not provided all the links to wikipedia pages for the 14 albums or 4 ban
  * Youtube channel Framework Television was used to get started with the google api and generally inspired the original javascript before refactoring was done. the link to 
  the video I used is [here](https://www.youtube.com/watch?v=8NUqDc1bQ84)
  * stackflow page where i directly took a funciton for the button opening content in a new tab, link provided [here](https://stackoverflow.com/questions/34082002/html-button-opening-link-in-new-tab/46542656)
+ * google maps api documentation was used, link provided [here](https://developers.google.com/maps/documentation/javascript/markers)
