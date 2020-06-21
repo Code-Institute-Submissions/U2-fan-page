@@ -1,5 +1,5 @@
 var map;
-
+/*-------------------------------------------function allows us to create the markers and info windows on each marker will be calle don in next function---*/
 function plotPointsOnMap(locations, centerPoints) {
     map = new google.maps.Map(document.getElementById("map"), {
         center: centerPoints,
@@ -14,7 +14,7 @@ function plotPointsOnMap(locations, centerPoints) {
             map: map,
             title: eachLocation.name,
         });
-
+        // content in info windows aswell as listeners added to know when to use them
         var contentString =
             "<h3>" +
             eachLocation.name +
@@ -43,7 +43,7 @@ function plotPointsOnMap(locations, centerPoints) {
         });
     });
 }
-
+/*-------------------------------------------function which creates map and calls on the other funcitons wit hthe parameters of the respective arrays in stadium.js---*/
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
         center: {
@@ -70,7 +70,7 @@ function initMap() {
         ShowPointsTable(rwStadiums);
     };
 }
-
+/*-------------------------------------------function which brings up table of content below map for the three different legs---*/
 function ShowPointsTable(locations) {
     var tableRows = "";
     var tableHeaders = "";
@@ -108,7 +108,7 @@ function ShowPointsTable(locations) {
         "</div>" +
         "<button onclick='NewTab()' class='tour-links' >Click for ticket master link for tour!</button>";
 }
-
+/*-------------------------------------------function to create new tab for button link---*/
 function NewTab() {
     window.open("https://www.ticketmaster.ie/u2-tickets/artist/736365", "_blank");
 }
