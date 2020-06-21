@@ -45,13 +45,13 @@ body {
 .header-style {
 	font-family: Piedra, sans-serif;
 	text-align: center;
-	margin: 20px, auto;
+	margin: 20px auto;
 }
 
 .page-header {
 	font-family: Piedra, sans-serif;
 	text-align: center;
-	margin: 20px, auto;
+	margin: 20px auto;
 	font-size: 100px;
 	border-bottom: none;
 }
@@ -159,6 +159,11 @@ body {
 	text-align: center;
 }
 
+.album-header li {
+    text-decoration: none;
+    display: inline-block;
+}
+
 .album-images {
 	height: 200px;
 	width: 200px;
@@ -169,7 +174,7 @@ body {
 }
 
 .album-paragraph {
-	text-align: center;
+	text-align: left;
 	vertical-align: bottom;
 }
 
