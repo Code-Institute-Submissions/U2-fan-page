@@ -48,12 +48,15 @@ In this project the Skeleton changed drastically from the original wireframes ba
 explination as to why they had changed.
 
 
-[Landing-page](assets/wireframes/Landing-page.pdf) - On this page the layout is similar to the oroignal idea just addition of content such as "how it started" and "achievements" but the layout 
+[Landing-page](assets/wireframes/Landing-page.pdf) - On this page the layout is similar to the original idea just addition of content such as "how it started" and "achievements" but the layout 
 did not change drastically. As in all three pages the footer was not included in the origianl wireframe but was added later.
 
 
-[Album-page](assets/wireframes/album-page.pdf)  - This page completely changed form the oroignal idea. It was supposed to be a quiz but due to time constraints and a feeling that their was too much content on the landing page, 
+[Album-page](assets/wireframes/album-page.pdf)  - This page completely changed form the original idea. It was supposed to be a quiz but due to time constraints and a feeling that their was too much content on the landing page, 
 this page was changed to the album page. The content became album info and links to spotify for the albums. 
+
+[Tour-page](assets/wireframes/tour-info.pdf) - this page stayed true to the original wireframes, further tour info became a table that
+was changed to be interactive with the map. the buttons where moved form the corner of the map to below as it seemed more asthetically pleasing when actually implemented. 
 
 
 
